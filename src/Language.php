@@ -1,0 +1,61 @@
+<?php declare(strict_types=1);
+
+namespace Composite\Localization;
+
+enum Language: string
+{
+    case AR = 'ar';
+    case AM = 'am';
+    case BG = 'bg';
+    case BN = 'bn';
+    case CA = 'ca';
+    case CS = 'cs';
+    case DA = 'da';
+    case DE = 'de';
+    case EL = 'el';
+    case EN = 'en';
+    case EN_GB = 'en_gb';
+    case EN_US = 'en_us';
+    case ES = 'es';
+    case ES_419 = 'es_419';
+    case ET = 'et';
+    case FA = 'fa';
+    case FI = 'fi';
+    case FIL = 'fil';
+    case FR = 'fr';
+    case GU = 'gu';
+    case HE = 'he';
+    case HI = 'hi';
+    case HR = 'hr';
+    case HU = 'hu';
+    case ID = 'id';
+    case IT = 'it';
+    case JA = 'ja';
+    case KN = 'kn';
+    case KO = 'ko';
+    case LT = 'lt';
+    case LV = 'lv';
+    case ML = 'ml';
+    case MR = 'mr';
+    case MS = 'ms';
+    case NL = 'nl';
+    case NO = 'no';
+    case PL = 'pl';
+    case PT_BR = 'pt_br';
+    case PT_PT = 'pt_pt';
+    case RO = 'ro';
+    case RU = 'ru';
+    case SK = 'sk';
+    case SL = 'sl';
+    case SR = 'sr';
+    case SV = 'sv';
+    case SW = 'sw';
+    case TA = 'ta';
+    case TE = 'te';
+    case TH = 'th';
+    case TR = 'tr';
+    case UK = 'uk';
+    case VI = 'vi';
+    case ZH_CN = 'zh_cn';
+    case ZH_TW = 'zh_tw';
+}
