@@ -3,8 +3,23 @@
 Simple translation and pluralization php library based on files. 
 
 Overview:
+- [Requirements](#requirements) 
+- [Installation](#installation) 
 - [Localization](#localization) 
 - [Pluralization](#pluralization) 
+
+## Requirements
+
+* PHP 8.1+
+* PDO Extension with desired database drivers
+
+## Installation
+
+Install package via composer:
+
+```shell
+$ composer require compositephp/localization
+```
 
 ## Localization
 
